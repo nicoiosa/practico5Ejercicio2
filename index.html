@@ -15,6 +15,60 @@
 
 <body>
     <main>
+        <section class="container my-5 text-center">
+            <h1 class="display-1 mb-5">Ingrese una persona</h1>
+            <form>
+                <div class="row justify-content-center">
+                    <div class="col-10">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Nombre y Apellido"
+                                aria-label="Nombre y Apellido">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="input-group mb-3 col">
+                            <input type="number" class="form-control" placeholder="Edad" aria-label="Edad">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="input-group mb-3 col">
+                            <input type="number" class="form-control" placeholder="Año de nacimiento"
+                                aria-label="Año de nacimiento">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="input-group mb-3 col">
+                            <input type="number" class="form-control" placeholder="DNI" aria-label="DNI">
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="input-group mb-3 col">
+                            <input type="text" class="form-control" placeholder="Sexo (H = Hombre, M = Mujer)"
+                                aria-label="Sexo">
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <div class="input-group mb-3 col">
+                            <input type="number" class="form-control" placeholder="Peso (kg)" aria-label="Peso">
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <div class="input-group mb-5 col">
+                            <input type="number" class="form-control" placeholder="Altura (cm)" aria-label="Altura">
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <button class="btn btn-primary mb-5 btn-lg w-50" onclick="createObject()">Ingresar</button>
+            <div class="row d-none" id="moreBtns">
+                <div class="col-6">
+                    <button class="btn btn-success mb-5 w-75 btn-lg">Mostrar generación</button>
+                </div>
+                <div class="col-6">
+                    <button class="btn btn-danger mb-5 w-75 btn-lg">Indicar si es mayor de edad</button>
+                </div>
+            </div>
+        </section>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"

@@ -48,3 +48,12 @@ class Persona {
     document.write(`<p>Año de naciemiento: ${this.añoNacimiento}</p>`);
   }
 }
+function createObject() {
+  console.log("funko");
+  const form = document.querySelector("form")
+  const mainBtn = document.querySelector("button")
+  const moreBtns = document.getElementById("moreBtns")
+  mainBtn.className = "d-none"
+  form.className = "d-none"
+  moreBtns.className = "row"
+}
